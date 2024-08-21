@@ -1,0 +1,246 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(210, 226, 241);
+}
+
+.root {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main_container {
+    width: 470px;
+    height: 800px;
+    margin-top: 35px;
+    border-radius: 25px 280px 25px 25px;
+    background-color: white;
+    box-shadow: -.40px -.40px 18px grey;
+}
+
+.image_c {
+    width: 400px;
+    height: 420px;
+    border-radius: 280px 25px 25px 25px;
+    margin-left: 33px;
+    cursor: pointer;
+}
+
+.details {
+    color: black;
+    background-color: white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 33px;
+    margin-top: 25px;
+}
+
+.heading {
+    background-color: white;
+}
+
+.color {
+    gap: 40px;
+    margin-top: 30px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-color: white;
+
+}
+
+.all_btn {
+    gap: 40px;
+}
+
+.red_btn {
+    width: 33px;
+    height: 33px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 80px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.red_btn:focus {
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 0, 0, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    outline: none;
+    border: none;
+}
+
+.yellow_btn {
+    width: 33px;
+    height: 33px;
+    background-color: rgb(255, 255, 0);
+    border-radius: 50%;
+    margin-left: 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.yellow_btn:focus {
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgb(255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%);
+    outline: none;
+    border: none;
+}
+
+.blue_btn {
+    width: 33px;
+    height: 33px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-left: 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.blue_btn:focus {
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgb(0, 0, 255) 50%, rgba(255, 255, 255, 1) 100%);
+    outline: none;
+    border: none;
+}
+
+.green_btn {
+    width: 33px;
+    height: 33px;
+    background-color: green;
+    border-radius: 50%;
+    margin-left: 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.green_btn:focus {
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgb(0, 128, 0) 50%, rgba(255, 255, 255, 1) 100%);
+    outline: none;
+    border: none;
+}
+
+.black_btn {
+    width: 33px;
+    height: 33px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.black_btn:focus {
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgb(0, 0, 0) 50%, rgba(255, 255, 255, 1) 100%);
+    outline: none;
+    border: none;
+}
+
+.purple_btn {
+    width: 33px;
+    height: 33px;
+    background-color: purple;
+    border-radius: 50%;
+    margin-left: 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.purple_btn:focus {
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgb(128, 0, 128) 50%, rgba(255, 255, 255, 1) 100%);
+    outline: none;
+    border: none;
+}
+
+.redBtn {
+    background-color: red;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+
+}
+
+.redBtn:active {
+    background-color: aqua;
+}
+
+.redBtn:focus {
+    background-color: aliceblue;
+
+}
+
+.main_div_s {
+    display: flex;
+    background-color: white;
+    align-items: center;
+}
+
+.size_btn {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 19px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.size_btn:focus {
+    background: #2057f1 !important;
+}
+
+.size_btn p {
+    margin: 0;
+    background-color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.size_btn p:focus {
+    background: #2057f1 !important;
+
+}
+
+
+.button2 {
+    box-shadow: 0px 3px 1.5px #5984fa;
+    border: none;
+    outline: none;
+    border-radius: 9px;
+    margin-top: 15px;
+    margin-left: 60px;
+    width: 350px;
+    height: 70px;
+    background-color: #3f70f6;
+}
+.button2:active{
+    background-color: #0c44df !important ;
+}
+
+.addToCart {
+    background-color: #3f70f6;
+    font-size: 21px;
+    color: white;
+    font-weight: 800;
+}
+
+.addToCart:active {
+    background-color: #0c44df !important;
+
+}
+
